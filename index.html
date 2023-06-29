@@ -18,18 +18,33 @@
             <img src="./images/logo.png" alt="logo">
         </div>
 
-        <div class="toggleBtn" id="toggleBtn">
-            <span class="material-symbols-sharp">menu</span>
+        <div class="toggleBtn" >
+            <i class='bx bx-menu' id="toggleBtn" alt="open"></i>
         </div>
-
+        
         <div class="navLinks">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#shop">Shop</a></li>
                 <li><a href="#delivery">Delivery</a></li>
                 <li><a href="#app">App</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#history">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="mobileNavLinks" id="mobileNavLinks">
+            <div class="toggleBtn" >
+                <i class='bx bx-x' id="toggleBtnClose" alt="close"></i>
+            </div>
+
+            <ul>
+                <li><a id="mobileLink" href="#">Home</a></li>
+                <li><a id="mobileLink" href="#shop">Shop</a></li>
+                <li><a id="mobileLink" href="#delivery">Delivery</a></li>
+                <li><a id="mobileLink" href="#app">App</a></li>
+                <li><a id="mobileLink" href="#history">About</a></li>
+                <li><a id="mobileLink" href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -58,7 +73,7 @@
 
             <h1>shop coffee</h1>
 
-            <div class="itemContainer">
+            <div class="itemContainer container">
                 
                 <div class="item">
                     <div class="itemImg">
@@ -137,7 +152,7 @@
             <h1>order with uber eats</h1>
         </div>
 
-        <div class="deliveryContainer">
+        <div class="deliveryContainer container">
             <div class="deliveryImg">
                 <img src="./images/delivery.png" alt="delivery">
             </div>
@@ -155,14 +170,14 @@
     </section>
 
     <!-- =================Our App============================ -->
-    <section class="app" id="app">
+    <section class="app" id="app">  
         <div class="header">
             <p>our app</p>
 
             <h1>download app</h1>
         </div>
 
-        <div class="appContainer">
+        <div class="appContainer container">
 
             <div class="appText">
                 <h2>Order from anywhere</h2>
@@ -183,7 +198,7 @@
     <!-- =================History============================ -->
     <section class="app history" id="history">
         
-        <div class="appContainer ">
+        <div class="appContainer container">
             <div class="appImg">
                 <img src="./images/about.png" alt="app">
             </div>
@@ -198,6 +213,24 @@
                 <button>learn more</button>
             </div>
         </div>
+    </section>
+
+    <!-- ===============contact Section======================= -->
+    <section class="contact" id="contact">
+        <div class="icons">
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+        <div class="contactLinks">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Our Company</a>
+        </div>
+
+        <p>&COPY; Ibn Practice, All Rights Reserved.</p>
     </section>
 
     <script src="index.js"></script>
